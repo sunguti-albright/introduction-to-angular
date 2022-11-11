@@ -1,7 +1,7 @@
 input, button {
     border: solid 1px #555B6E;
     border-radius: 2px;
-    display: inline-block; 
+    display: inline-block;
     padding: 0;
 }
 input {
@@ -13,12 +13,34 @@ input {
     padding: 0 5px 0 10px;
 }
 
-button{
-    background-color: blue;
-    color:white;
-    border: none;
+button {
+    width: 70px;
+    height: 42px;
+    background-color: #4468e8;
+    color: white;
     border: solid 1px #4468e8;
     border-radius: 0 2px 2px 0;
+}
 
-    margin-left: 5px;
+article {
+    margin: 40px 0 10px 0;
+    color: #202845;
+}
+article, article > p {
+    color: #202845;
+}
+
+article> p:first-of-type {
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+img {
+    width: 490px;
+    border-radius: 5pt;
+}
+
+label {
+    display: block;
+    color: #888c9c;
 }
